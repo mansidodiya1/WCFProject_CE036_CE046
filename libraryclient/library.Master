@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="library.master.cs" Inherits="libraryclient.library" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>  
+    <asp:ContentPlaceHolder ID="head" runat="server">  
+    </asp:ContentPlaceHolder>  
+    <style>  
+      body{width:100%; background-color:Silver;}  
+      .page-wrapper{width:700px; background-color:LightGray; padding:0px; height:auto; overflow:hidden;}  
+      .header{height:50px; width:99%; padding:1%; background-color:Tomato; color:White; font-family:Segoe UI; font-size:30px;}  
+      .menu{height:30px; width:99%; padding:1%; background-color:White; color:White; font-family:Segoe UI; font-size:14px; clear:both; float:left; text-align:left;}  
+      .footer{height:30px; width:99%; padding:1%; background-color:Tomato; color:White; font-family:Segoe UI; font-size:12px; text-align:left; vertical-align:bottom; clear:both;}  
+      .button{width:110px; height:30px; border-style:none; background-color:Tomato; font-family:Verdana; font-size:15px; color:White;}  
+      .button:hover{background-color:Black;}  
+      .textBox{width:400px; background-color:White; border:1px Solid Navy; padding:5px; color:Black; font-family:Segoe UI; }  
+      .linkbutton{width:120px; padding:7px; background-color:Tomato;color:White; font-family:Verdana; font-size:16px; margin-right:1px; margin-top:2px; text-decoration:none;}  
+      .linkbutton:hover{background-color:Orange;}  
+    </style>  
+</head>
+<body>
+    <form id="form1" runat="server">  
+    <center>  
+    <div class="page-wrapper">  
+    <div class="header">  
+    CRUD Operation Using Library WCF Service 
+    </div>  
+    <div class="menu">  
+    <table style="float:left">  
+    <tr>  
+    <td><a href="AddNewRecord.aspx" class="linkbutton" >Add New</a></td>  
+    <td><a href="UpdateRecord.aspx" class="linkbutton" >Update</td>  
+    <td><a href="DeleteRecord.aspx" class="linkbutton" >Delete</td>  
+    <td><a href="DisplayRecord.aspx" class="linkbutton" >Display</td>  
+    </tr>  
+    </table>  
+    </div>  
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
+          
+        </asp:ContentPlaceHolder>  
+        <div class="footer">  
+        
+        </div>  
+    </div>  
+    </center>  
+    </form>  
+</body>
+</html>
+
