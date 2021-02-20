@@ -1,0 +1,7 @@
+C:\Users\tml\source\repos\libraryservice\obj\Debug\libraryservice.csprojAssemblyReference.cache
+C:\Users\tml\source\repos\libraryservice\obj\Debug\libraryservice.csproj.CoreCompileInputs.cache
+C:\Users\tml\source\repos\libraryservice\bin\libraryservice.dll.config
+C:\Users\tml\source\repos\libraryservice\bin\libraryservice.dll
+C:\Users\tml\source\repos\libraryservice\bin\libraryservice.pdb
+C:\Users\tml\source\repos\libraryservice\obj\Debug\libraryservice.dll
+C:\Users\tml\source\repos\libraryservice\obj\Debug\libraryservice.pdb
